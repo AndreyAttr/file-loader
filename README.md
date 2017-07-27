@@ -1,5 +1,4 @@
 [![npm][npm]][npm-url]
-[![node][node]][node-url]
 [![deps][deps]][deps-url]
 [![tests][tests]][tests-url]
 [![coverage][cover]][cover-url]
@@ -11,6 +10,7 @@
       src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
   <h1>File Loader</h1>
+  <p>Instructs webpack to emit the required object as file and to return its public url.</p>
 </div>
 
 <h2 align="center">Install</h2>
@@ -110,25 +110,42 @@ Don't hesitate to create a pull request. Every contribution is appreciated. In d
   <tbody>
     <tr>
       <td align="center">
-        <img width="150" height="150"
-        src="https://avatars.githubusercontent.com/sokra?v=3">
-        <br />
-        <a href="https://github.com/">Tobias Koppers</a>
+        <a href="https://github.com/bebraw">
+          <img width="150" height="150" src="https://github.com/bebraw.png?v=3&s=150">
+          </br>
+          Juho Vepsäläinen
+        </a>
       </td>
       <td align="center">
-        <img width="150" height="150"
-        src="https://avatars.githubusercontent.com/SpaceK33z?v=3">
-        <br />
-        <a href="https://github.com/">Kees Kluskens</a>
+        <a href="https://github.com/d3viant0ne">
+          <img width="150" height="150" src="https://github.com/d3viant0ne.png?v=3&s=150">
+          </br>
+          Joshua Wiens
+        </a>
       </td>
       <td align="center">
-        <img width="150" height="150"
-        src="https://avatars.githubusercontent.com/mobitar?v=3">
-        <br />
-        <a href="https://github.com/">Mo Bitar</a>
+        <a href="https://github.com/sapegin">
+          <img width="150" height="150" src="https://github.com/sapegin.png?v=3&s=150">
+          </br>
+          Artem Sapegin
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/michael-ciniawsky">
+          <img width="150" height="150" src="https://github.com/michael-ciniawsky.png?v=3&s=150">
+          </br>
+          Michael Ciniawsky
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/evilebottnawi">
+          <img width="150" height="150" src="https://github.com/evilebottnawi.png?v=3&s=150">
+          </br>
+          Alexander Krasnoyarov
+        </a>
       </td>
     </tr>
-  </tbody>
+  <tbody>
 </table>
 
 
@@ -139,17 +156,14 @@ MIT
 [npm]: https://img.shields.io/npm/v/file-loader.svg
 [npm-url]: https://npmjs.com/package/file-loader
 
-[node]: https://img.shields.io/node/v/file-loader.svg
-[node-url]: https://nodejs.org
-
 [deps]: https://david-dm.org/webpack-contrib/file-loader.svg
 [deps-url]: https://david-dm.org/webpack-contrib/file-loader
 
 [tests]: http://img.shields.io/travis/webpack-contrib/file-loader.svg
 [tests-url]: https://travis-ci.org/webpack-contrib/file-loader
 
-[cover]: https://coveralls.io/repos/github/webpack-contrib/file-loader/badge.svg
-[cover-url]: https://coveralls.io/github/webpack-contrib/file-loader
+[cover]: https://codecov.io/gh/webpack-contrib/file-loader/branch/master/graph/badge.svg
+[cover-url]: https://codecov.io/gh/webpack-contrib/file-loader
 
 [chat]: https://badges.gitter.im/webpack/webpack.svg
 [chat-url]: https://gitter.im/webpack/webpack
